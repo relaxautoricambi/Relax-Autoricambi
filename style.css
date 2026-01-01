@@ -1,0 +1,102 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #111;
+  color: #fff;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #00c853, #009624);
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 25px;
+  background: #000;
+  color: #00c853;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.vantaggi {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #1b1b1b;
+}
+
+.form-section {
+  max-width: 450px;
+  margin: 40px auto;
+  background: #1b1b1b;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #00c853;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.privacy {
+  padding: 20px;
+  font-size: 14px;
+  background: #000;
+  color: #ccc;
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+.privacy-check {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  font-size: 26px;
+  padding: 14px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .vantaggi {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+}
